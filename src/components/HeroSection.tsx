@@ -12,7 +12,7 @@ export const HeroSection = () => {
         <img
           src={heroImage}
           alt="Perfume Mirror"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-[70%_center] md:object-[75%_center] lg:object-[80%_center]"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/50" />

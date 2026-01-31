@@ -24,13 +24,14 @@ export const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="h-14 w-14 flex items-center justify-center overflow-hidden rounded-sm">
+            <div className="h-12 w-12 flex items-center justify-center overflow-hidden">
               <img 
                 src={logoIcon} 
                 alt="Mirror Perfumaria" 
                 className="h-full w-full object-contain"
                 style={{ 
-                  mixBlendMode: 'screen',
+                  mixBlendMode: 'multiply',
+                  filter: 'brightness(1.1) contrast(1.2)',
                 }}
               />
             </div>

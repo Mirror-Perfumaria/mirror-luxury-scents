@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-perfume-apolo.png';
+import heroImage from '@/assets/hero-perfume-final.jpg';
 
 export const HeroSection = () => {
   return (
@@ -79,7 +79,7 @@ export const HeroSection = () => {
           <img
             src={heroImage}
             alt="Perfume Mirror Apolo"
-            className="h-auto w-auto max-h-[80%] max-w-[85%] object-contain absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            className="h-full w-full object-cover object-[center_60%]"
           />
         </div>
       </motion.div>

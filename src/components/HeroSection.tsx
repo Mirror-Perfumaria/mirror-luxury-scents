@@ -79,7 +79,7 @@ export const HeroSection = () => {
           <img
             src={heroImage}
             alt="Perfume Mirror Apolo"
-            className="h-full w-full object-cover object-[center_60%]"
+            className="h-full w-full object-cover object-[center_50%]"
           />
         </div>
       </motion.div>

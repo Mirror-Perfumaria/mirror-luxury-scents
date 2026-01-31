@@ -87,7 +87,9 @@ const Contato = () => {
                     </div>
                     <div>
                       <h3 className="font-medium text-foreground mb-1">Telefone</h3>
-                      <p className="text-muted-foreground">(11) 99999-9999</p>
+                      <a href="tel:+5511982451111" className="text-muted-foreground hover:text-primary transition-colors">
+                        (11) 98245-1111
+                      </a>
                     </div>
                   </div>
 
@@ -118,7 +120,7 @@ const Contato = () => {
                     <div>
                       <h3 className="font-medium text-foreground mb-1">WhatsApp</h3>
                       <a
-                        href="https://wa.me/5511999999999"
+                        href="https://wa.me/5511982451111"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline"
@@ -138,7 +140,7 @@ const Contato = () => {
                     Para um atendimento mais ágil, fale conosco pelo WhatsApp.
                   </p>
                   <Button asChild className="w-full gap-2">
-                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/5511982451111" target="_blank" rel="noopener noreferrer">
                       <MessageCircle className="w-4 h-4" />
                       Falar no WhatsApp
                     </a>

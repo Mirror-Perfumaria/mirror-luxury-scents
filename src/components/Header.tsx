@@ -24,7 +24,7 @@ export const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="h-12 w-12 flex items-center justify-center overflow-hidden">
+            <div className="h-24 w-24 flex items-center justify-center overflow-hidden">
               <img 
                 src={logoIcon} 
                 alt="Mirror Perfumaria" 

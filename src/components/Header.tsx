@@ -29,10 +29,6 @@ export const Header = () => {
                 src={logoIcon} 
                 alt="Mirror Perfumaria" 
                 className="h-full w-full object-contain"
-                style={{ 
-                  mixBlendMode: 'multiply',
-                  filter: 'brightness(1.1) contrast(1.2)',
-                }}
               />
             </div>
           </Link>

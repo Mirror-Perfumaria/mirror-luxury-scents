@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ShoppingBag, Menu, X, Search } from 'lucide-react';
 import { useCart } from '@/contexts/CartContext';
-import logo from '@/assets/logo.jpeg';
+import logoIcon from '@/assets/logo-icon.png';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -24,7 +24,15 @@ export const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <img src={logo} alt="Mirror Perfumaria" className="h-12 w-auto" />
+            <img 
+              src={logoIcon} 
+              alt="Mirror Perfumaria" 
+              className="h-10 w-auto"
+              style={{ 
+                mixBlendMode: 'multiply',
+                filter: 'drop-shadow(0 0 0 transparent)'
+              }}
+            />
           </Link>
 
           {/* Desktop Navigation */}

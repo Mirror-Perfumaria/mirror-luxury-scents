@@ -78,8 +78,8 @@ export const HeroSection = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-background/60 z-10 pointer-events-none" />
           <img
             src={heroImage}
-            alt="Perfume Mirror"
-            className="h-full w-full object-cover object-[center_60%]"
+            alt="Perfume Mirror Apolo"
+            className="h-auto w-auto max-h-[80%] max-w-[85%] object-contain absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
           />
         </div>
       </motion.div>

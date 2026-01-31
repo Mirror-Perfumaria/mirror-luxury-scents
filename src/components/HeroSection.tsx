@@ -70,15 +70,16 @@ export const HeroSection = () => {
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className="absolute right-0 top-[25%] bottom-0 w-[50%] lg:w-[45%] hidden md:block"
+        className="absolute right-0 inset-y-0 w-[50%] lg:w-[45%] hidden md:block"
       >
         <div className="relative h-full w-full">
-          {/* Gradient overlay for blend effect */}
-          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/40 to-transparent z-10 pointer-events-none" />
+          {/* Gradient overlays for seamless blend */}
+          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent z-10 pointer-events-none" />
+          <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-background/60 z-10 pointer-events-none" />
           <img
             src={heroImage}
             alt="Perfume Mirror"
-            className="h-full w-full object-cover object-center"
+            className="h-full w-full object-cover object-[center_60%]"
           />
         </div>
       </motion.div>

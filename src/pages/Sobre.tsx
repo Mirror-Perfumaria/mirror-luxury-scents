@@ -61,19 +61,19 @@ const Sobre = () => {
                 <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
                   Criada para trazer produtos diferenciados e de alta qualidade
                 </h2>
-                <div className="space-y-4 text-muted-foreground">
+                <div className="space-y-6 text-muted-foreground">
                   <p>
-                    A Mirror Perfumaria nasceu do sonho de democratizar o acesso a fragrâncias 
-                    premium, oferecendo perfumes de alta qualidade com custo-benefício incomparável.
+                    A Mirror cria fragrâncias autorais e exclusivas, todas na concentração Parfum, 
+                    desenvolvidas com matérias-primas selecionadas e assinadas por perfumistas renomados. 
+                    Cada criação é pensada para ter profundidade, evolução real na pele e uma assinatura 
+                    que não se confunde.
                   </p>
                   <p>
-                    Cada fragrância é cuidadosamente desenvolvida com ingredientes selecionados, 
-                    garantindo alta fixação e uma experiência olfativa única que reflete a 
-                    personalidade de cada cliente.
+                    A Mirror não segue tendências passageiras.<br />
+                    Aqui, o luxo está na escolha certa, no equilíbrio preciso e na honestidade olfativa.
                   </p>
-                  <p>
-                    Nossa missão é ser referência no segmento de perfumaria premium no Brasil, 
-                    proporcionando produtos que superam expectativas e criam memórias inesquecíveis.
+                  <p className="italic font-medium text-foreground/80">
+                    Presença não se explica, se sente.
                   </p>
                 </div>
               </motion.div>

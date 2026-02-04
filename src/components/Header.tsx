@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ShoppingBag, Menu, X, Search } from 'lucide-react';
-import { useCart } from '@/contexts/CartContext';
+import { Menu, X } from 'lucide-react';
+import { ShopifyCartDrawer } from '@/components/ShopifyCartDrawer';
 import logoIcon from '@/assets/logo-icon.png';
 
 const navLinks = [
@@ -15,7 +15,6 @@ const navLinks = [
 
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const { totalItems, setIsCartOpen } = useCart();
   const location = useLocation();
 
   return (
@@ -58,18 +57,7 @@ export const Header = () => {
 
           {/* Actions */}
           <div className="flex items-center gap-4">
-            <button
-              onClick={() => setIsCartOpen(true)}
-              className="relative p-2 text-foreground/80 hover:text-primary transition-colors"
-              aria-label="Carrinho"
-            >
-              <ShoppingBag className="w-5 h-5" />
-              {totalItems > 0 && (
-                <span className="absolute -top-1 -right-1 w-5 h-5 bg-primary text-primary-foreground text-xs font-bold rounded-full flex items-center justify-center">
-                  {totalItems}
-                </span>
-              )}
-            </button>
+            <ShopifyCartDrawer />
 
             {/* Mobile Menu Button */}
             <button

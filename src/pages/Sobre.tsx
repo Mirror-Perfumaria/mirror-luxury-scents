@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { CartDrawer } from '@/components/CartDrawer';
 import { Sparkles, Heart, Award, Users } from 'lucide-react';
 import logo from '@/assets/logo.jpeg';
 
@@ -9,7 +8,6 @@ const Sobre = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <CartDrawer />
 
       <main className="pt-20">
         {/* Hero */}

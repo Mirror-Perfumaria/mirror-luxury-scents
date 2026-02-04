@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { CartDrawer } from '@/components/CartDrawer';
 import { Sparkles, Shield, Clock, Gift, Leaf, Heart, Award, RefreshCw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
@@ -61,7 +60,6 @@ const Beneficios = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <CartDrawer />
 
       <main className="pt-20">
         {/* Hero */}

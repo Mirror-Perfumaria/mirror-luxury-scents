@@ -147,10 +147,10 @@ const Sobre = () => {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               {[
-                { number: '5000+', label: 'Clientes Satisfeitos' },
+                { number: '+1.000', label: 'Clientes' },
                 { number: '20+', label: 'Fragrâncias' },
                 { number: '4.9', label: 'Avaliação Média' },
-                { number: '24h', label: 'Alta Fixação' },
+                { number: '12h', label: 'Alta Fixação' },
               ].map((stat, index) => (
                 <motion.div
                   key={stat.label}

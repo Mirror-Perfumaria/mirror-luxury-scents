@@ -41,7 +41,7 @@ export const HeroSection = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-xl"
             >
-              Fragrâncias premium com alta fixação e ingredientes 100% orgânicos. 
+              Fragrâncias autorais com alta fixação e ingredientes 100% orgânicos. 
               Descubra o perfume que define quem você é.
             </motion.p>
 

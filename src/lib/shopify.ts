@@ -2,9 +2,9 @@ import { toast } from 'sonner';
 
 // Shopify Storefront API Configuration
 const SHOPIFY_API_VERSION = '2025-07';
-const SHOPIFY_STORE_PERMANENT_DOMAIN = 'mirrorperfumaria-mxs5l.myshopify.com';
+const SHOPIFY_STORE_PERMANENT_DOMAIN = 'v4pnpi-gu.myshopify.com';
 const SHOPIFY_STOREFRONT_URL = `https://${SHOPIFY_STORE_PERMANENT_DOMAIN}/api/${SHOPIFY_API_VERSION}/graphql.json`;
-const SHOPIFY_STOREFRONT_TOKEN = '3bd35eb56a3e7a6f7efb68f666983ab3';
+const SHOPIFY_STOREFRONT_TOKEN = '0764f2474cf52a1c154e139f316c1048';
 
 export { SHOPIFY_STORE_PERMANENT_DOMAIN };
 
